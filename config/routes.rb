@@ -17,6 +17,8 @@ Rails.application.routes.draw do
 
    get 'thanks' => 'web#thanks'
 
+   get 'records' => 'web#records'
+
 
    resources :users
 

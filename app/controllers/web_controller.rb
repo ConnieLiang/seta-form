@@ -6,4 +6,10 @@ class WebController < ApplicationController
   def thanks
 
   end
+
+  def records
+
+  	@users = User.all
+
+  end
 end
