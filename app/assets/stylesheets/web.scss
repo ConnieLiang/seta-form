@@ -1,0 +1,113 @@
+// Place all the styles related to the web controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+html {
+	font-family:Helvetica,san-serif,
+}
+
+abbr,.error {
+	color:red;
+}
+
+.centerContent {
+	max-width:400px;
+	min-width:300px;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+form {
+	line-height:2em;
+
+	.contact {
+		label {
+			font-weight:bold;
+			width:110px;
+			display:block;
+			float:left;
+			margin-top:11px;
+		}
+
+		input,textarea,select {
+			padding:10px;
+			margin:8px;
+			border-radius:3px;
+			border:1px solid #ccc;
+			width:230px;
+		}
+
+		#user_region {
+			margin-top:16px;
+			width:252px;
+		}
+
+	}
+
+
+	.checkboxes {
+
+		input {
+			margin-right:7px;
+		}
+		label {
+			font-size:.9em;
+		}
+
+		.user_others {
+			float:left;
+		}
+
+		.user_others_text {
+			label {
+				display:none;
+			}
+			#user_others_text {
+				float:left;
+				margin-left:10px;
+				margin-top:5px;
+				border:0px;
+				border-bottom:1px solid #ccc;
+			}
+		}
+
+
+	}
+
+	.legal {
+		font-size:.875em;
+		line-height:1.2em;
+		margin-top:10px;
+		float:left;
+		max-width:340px;
+	}
+	.user_legal {
+			float:left;
+			margin-right:5px;
+	}
+}
+
+
+
+input[type="submit"] {
+	background:#44b2b0;
+	padding:10px;
+	border-radius:3px;
+	border:0px;
+	font-size:1.5em;
+	color:White;
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom:13px;
+	margin:30px;
+	cursor:pointer;
+
+	&:hover {
+		opacity:.9;
+	}
+
+}
+

@@ -1,0 +1,56 @@
+
+<div class="centerContent">
+
+	<h1>Registration for Visitors</h1>
+
+
+		<%= simple_form_for @user, validate: true do |f| %>
+
+			<div class="contact">
+			  <%= f.input :first_name, required: true %>
+			  <%= f.input :last_name, required: true %>
+			  <%= f.input :company, required: true %>
+			  <%= f.input :position, required: true %>
+			  <%= f.input :address, required: true %>
+			  <%= f.input :region, :label=>"Country", as: :country%>
+			  <div style="clear:both"></div>
+			  <%= f.input :state, required: true %>
+			  <%= f.input :city, required: true %>
+			  <%= f.input :zip, :label=>"Postal Code"%>
+			  <%= f.input :phone, required: true %>
+			  <%= f.input :email, required: true %>
+		  </div>
+
+		  <div class="checkboxes">
+
+		  	<p style="margin-bottom:0px"><b>What is the nature of your business?</b></p>
+			  <%= f.input :importer %>
+			  <%= f.input :wholesaler %>
+			  <%= f.input :chain_store %>
+				<%= f.input :distributor %>
+				<%= f.input :exporter %>
+				<%= f.input :manufacturer %>
+				<%= f.input :etailer %>
+				<%= f.input :department_store %>
+				<%= f.input :buying_office %>
+				<%= f.input :brand_owner %>
+				<%= f.input :boutique_owner %>
+				<%= f.input :franchisee %>
+				<%= f.input :others %>
+				<%= f.input :others_text %>
+
+				<div style="clear:both"></div>
+			</div>
+
+			<br>
+			<%= f.input :legal, :label=>false, required: true %>
+			<div class="legal">I confirm that I have read and agree with Organisers' Terms of Use and Visitors’ Rules and Regulations and agree that the above information may be used by the Organisers for incorporation in all or any of their database for direct marketing or business matching purpose (and may therefore become available to the public within and/or outside of Berlin for use by them), and for any other purposes as stated in the Privacy Policy Statement. I confirm that the Organisers have my consent to release my personal data for the purposes stated herein and am admitted to the Fair on condition that I abide by the Visitors’ Rules & Regulations set by the Organisers. <abbr>*</abbr> </div>
+
+
+			<center>
+		  	<%= f.button :submit, :value=>"Submit" %>
+		  </center>
+		<% end %>
+
+
+</div>
