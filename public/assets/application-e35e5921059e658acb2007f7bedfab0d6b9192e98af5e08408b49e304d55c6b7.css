@@ -1,0 +1,116 @@
+/* line 6, /Users/conniel/Desktop/seta/app/assets/stylesheets/web.scss */
+html {
+  font-family: Helvetica, san-serif;
+}
+
+/* line 10, /Users/conniel/Desktop/seta/app/assets/stylesheets/web.scss */
+abbr, .error {
+  color: red;
+}
+
+/* line 14, /Users/conniel/Desktop/seta/app/assets/stylesheets/web.scss */
+.centerContent {
+  max-width: 400px;
+  min-width: 300px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 23, /Users/conniel/Desktop/seta/app/assets/stylesheets/web.scss */
+form {
+  line-height: 2em;
+}
+/* line 27, /Users/conniel/Desktop/seta/app/assets/stylesheets/web.scss */
+form .contact label {
+  font-weight: bold;
+  width: 110px;
+  display: block;
+  float: left;
+  margin-top: 11px;
+}
+/* line 35, /Users/conniel/Desktop/seta/app/assets/stylesheets/web.scss */
+form .contact input, form .contact textarea, form .contact select {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  width: 230px;
+}
+/* line 43, /Users/conniel/Desktop/seta/app/assets/stylesheets/web.scss */
+form .contact #user_region {
+  margin-top: 16px;
+  width: 252px;
+}
+/* line 53, /Users/conniel/Desktop/seta/app/assets/stylesheets/web.scss */
+form .checkboxes input {
+  margin-right: 7px;
+}
+/* line 56, /Users/conniel/Desktop/seta/app/assets/stylesheets/web.scss */
+form .checkboxes label {
+  font-size: .9em;
+}
+/* line 60, /Users/conniel/Desktop/seta/app/assets/stylesheets/web.scss */
+form .checkboxes .user_others {
+  float: left;
+}
+/* line 65, /Users/conniel/Desktop/seta/app/assets/stylesheets/web.scss */
+form .checkboxes .user_others_text label {
+  display: none;
+}
+/* line 68, /Users/conniel/Desktop/seta/app/assets/stylesheets/web.scss */
+form .checkboxes .user_others_text #user_others_text {
+  float: left;
+  margin-left: 10px;
+  margin-top: 5px;
+  border: 0px;
+  border-bottom: 1px solid #ccc;
+}
+/* line 80, /Users/conniel/Desktop/seta/app/assets/stylesheets/web.scss */
+form .legal {
+  font-size: .875em;
+  line-height: 1.2em;
+  margin-top: 10px;
+  float: left;
+  max-width: 340px;
+}
+/* line 87, /Users/conniel/Desktop/seta/app/assets/stylesheets/web.scss */
+form .user_legal {
+  float: left;
+  margin-right: 5px;
+}
+
+/* line 95, /Users/conniel/Desktop/seta/app/assets/stylesheets/web.scss */
+input[type="submit"] {
+  background: #44b2b0;
+  padding: 10px;
+  border-radius: 3px;
+  border: 0px;
+  font-size: 1.5em;
+  color: White;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 13px;
+  margin: 30px;
+  cursor: pointer;
+}
+/* line 108, /Users/conniel/Desktop/seta/app/assets/stylesheets/web.scss */
+input[type="submit"]:hover {
+  opacity: .9;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
